@@ -9,7 +9,7 @@ def start() :
     tujuan= input("Tujuan Barang(q-quit)= ")
 
     if tujuan=="q":
-                exit(0)
+        exit(0)
     berat = int(input("Berat Barang = "))
     if tujuan == "j":
         harga= 10000

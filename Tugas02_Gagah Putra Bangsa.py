@@ -4,12 +4,13 @@ Nama: Gagah Putra Bangsa
 Program: Menghitung total biaya pengiriman
 Dibuat tanggal 05 Oktober 2021
 """
+import sys
 def start() :
     print("Daftar Hotkey\nj-Jabodetabek\ndj-Pulau Jawa\nlj-Luar Jawab")
     tujuan= input("Tujuan Barang(q-quit)= ")
 
     if tujuan=="q":
-        exit(0)
+        sys.exit(0)
     berat = int(input("Berat Barang = "))
     if tujuan == "j":
         harga= 10000

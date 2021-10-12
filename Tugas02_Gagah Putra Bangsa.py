@@ -9,7 +9,6 @@ import sys
 count=0
 print("Daftar Hotkey\nj->Jabodetabek\ndj->Pulau Jawa\nlj->Luar Jawab")
 while count==0:
-    i= {"q","j","dj","lj"}
 
     tujuan= input("Tujuan Barang(q-quit)= ")
     if tujuan=="q":
